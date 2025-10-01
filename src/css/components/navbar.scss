@@ -1,0 +1,31 @@
+.navbar{
+    z-index: 1;
+    margin-top: 5rem;
+    width: 85vw;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__logo{
+    width: 48px;
+    height: 48px;
+}
+
+.navbar__menu-logo{
+    width: 32px;
+    height: 32px;    
+}
+
+/* Небольшие мобильные (ширина меньше 480px) */
+@media (max-width: 479px) {
+    .navbar {
+        width: 80%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .navbar {
+        width: 80%;
+    }
+}

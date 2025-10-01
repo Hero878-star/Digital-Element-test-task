@@ -1,0 +1,17 @@
+@import url("reset");
+@import url("fonts");
+@import url("sections/heroSection");
+@import url("components/navbar");
+@import url("components/button");
+@import url("sections/whatWeDoSection");
+@import url("sections/ourClientSection");
+@import url("sections/footer");
+@import url("sections/modalWindow");
+
+.page{
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;      
+}

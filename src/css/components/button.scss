@@ -1,0 +1,116 @@
+.button{
+    cursor: pointer;
+    border-width: 0px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.button_blue04{
+    background-color:rgba(90, 152, 208, 1);
+}
+
+.button_blue04:hover {
+    background:rgb(110, 152, 208, 1);
+}
+
+.button_round{
+    width: 220px;
+    height: 56px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__title{
+    font-size: 2rem;
+    letter-spacing: 0.04em;
+    line-height: 3.25rem;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    color: white;
+}
+
+.submit_button{
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 56px;
+    height: 20%;
+}
+
+
+@media screen and (max-width: 479px) {
+    .button_round {
+        width: 140px;
+        height: 40px;
+    }
+    
+    .button__title {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    
+    .submit_button {
+        height: 45px;
+    }
+    
+    .logobox__button-title {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .button {
+        padding: 8px 12px;
+    }
+
+    .button_round {
+        width: 160px;
+        height: 45px;
+    }
+    
+    .button__title {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+    }
+    
+    .possibilities__learn-more {
+        font-size: 1.6rem;
+        padding: 8px 0;
+        display: inline-block;
+    }
+    
+    .submit_button {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    
+    .button:hover {
+        transform: none;
+        box-shadow: none;
+    }
+}
+
+@media (max-width: 1023px) {
+    .button_round {
+        width: 180px;
+        height: 50px;
+    }
+    
+    .button__title {
+        font-size: 1.8rem;
+    }
+    
+    .submit_button {
+        width: 90%;
+        margin-top: 4rem;
+    }
+}

@@ -1,0 +1,192 @@
+.footer{
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    min-width: 95%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(49, 96, 153, 1);
+    border-top-right-radius: 200px;
+    gap: 12rem;
+}
+
+.cta-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__textbox{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    max-width: 100%;
+    gap: 4rem;
+}
+
+.footer__header{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 5.75rem;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.footer__text{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.05em; 
+    color: white;
+    opacity: 60%;   
+}
+
+.footer__contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contacts__wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 12.5rem;
+}
+
+.contacts__block{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.footer__separator{
+    height: 1px;
+    width: 85%;
+    background-color: white;
+    opacity: 40%;
+}
+
+.contacts__title{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 1rem;
+}
+
+.contacts__afrianska{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 5.75rem;
+    letter-spacing: 0.02em; 
+    color: white;    
+}
+
+.contacts__text{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.05em; 
+    color: white;
+    display: flex;
+    flex-shrink: 0;     
+}
+
+.contacts__text::before{
+    content: "А.";
+    margin-right: 2rem;
+}
+
+.contacts__phone-number{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.05em; 
+    color: white;       
+}
+
+.contacts__phone-number::before{
+    content: "T.";
+    margin-right: 2rem;
+}
+
+.contacts__mail{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.05em; 
+    color: white;          
+}
+
+.contacts__mail::before{
+    content: "E";
+    margin-right: 2rem;
+}
+
+.contacts__header{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.05em; 
+    color: white;
+    margin-bottom: 1rem;      
+}
+
+.contacts__info{
+    font-family: 'Gilroy',Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    letter-spacing: 0.05em; 
+    color: white;    
+}
+
+.footer__copyright{
+    font-family: 'Gilroy', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: 0.05em;
+    color: white;
+    opacity: 40%;
+    margin-top: 8rem;
+}
+
+@media (max-width: 768px) {
+    .hero-section__header {
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+    .cta-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 3rem;
+    }
+
+    .contacts__wrapper {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .footer{
+        gap: 6rem;
+        border-top-right-radius: 100px;
+        border-top-left-radius: 100px;
+        min-width: 100%;
+        align-self: center;
+    }
+}
+
+@media (max-width: 1023px) {
+    .contacts__wrapper {
+        gap: 8rem;
+    }
+}
